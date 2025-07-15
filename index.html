@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 px-2 lg:px-16 md:px-8 sm:px-8">
+    <nav class="bg-gray-800 shadow-xl p-2 mb-4 rounded-b-2xl max-w-auto overflow-hidden">
+      <ul
+        class="flex flex-row sm:gap-4 md:gap-6 lg:gap-8 gap-3 2xl:gap-14 font-semibold"
+      >
+      <li>
+        <div class="w-8 h-6 mt-2 ml-4 hover:scale-105 duration-100">
+          <button class="absolute w-6 h-5 bg-transparent"></button>
+          <div class="w-6 h-0.5 bg-gray-200 rounded-full mb-1"></div>
+          <div class="w-6 h-0.5 bg-gray-200 rounded-full mb-1"></div>
+          <div class="w-6 h-0.5 bg-gray-200 rounded-full"></div>
+        </div>
+      </li>
+        <li class=" duration-100 transition hover:-translate-y-0.5">
+          <a href="index.html" class="text-gray-100 hover:underline hover:text-blue-300"
+            >Home</a
+          >
+        </li>
+        <li class=" duration-100 transition hover:-translate-y-0.5">
+          <a href="about.html" class="text-gray-100 hover:underline hover:text-blue-300"
+            >About</a
+          >
+        </li>
+        <li class=" duration-100 transition hover:-translate-y-0.5">
+          <a href="" class="text-gray-100 hover:underline hover:text-blue-300"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="items-center p-5 m-2">
+      <h1 class="text-6xl text-white text-shadow-lg text-center font-[1000]">Portfolio</h1>
+    </div>
+
+    <section
+      class="flex flex-col bg-gray-800 rounded-xl mt-5 p-8 items-center max-w-auto overflow-hidden"
+    >
+      <div
+        class="w-32 h-32 rounded-full shadow-xl border-4 border-gray-200 hover:bg-gray-600 duration-700 hover:shadow-gray-100/20 ease-in-out overflow-hidden flex items-center"
+      ><img src="https://media.istockphoto.com/id/1934800957/vector/man-empty-avatar-vector-photo-placeholder-for-social-networks-resumes-forums-and-dating.jpg?s=612x612&w=0&k=20&c=uegpkq9-EgMlLR2MjUOgYV5Ev4hftQ_X4CONfDInjE8="></div>
+      <div class="mt-4 text-center">
+        <h2 class="text-4xl font-bold text-gray-200 select-all">Yashvardhan Rai</h2>
+        <h2 class="text-md text-gray-400 mt-2">Web UI/UX Designer</h2>
+        <h2 class="text-xl font-bold mt-8 mb-8 text-gray-200 mt-2">"Everything is responsive if you are brave enough."</h2>
+        <h2 class="text-2xl font-bold text-gray-300 mt-4">My skillset</h2>
+      </div>
+      <div class="mt-4 grid grid-cols-2 gap-4 text-center lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 select-none">
+        <span
+          class="inline-block bg-gray-600 text-gray-200 px-3 py-2 rounded-full font-bold shadow-lg hover:shadow-gray-100/10 hover:-translate-y-1 duration-100 mt-3 lg:mt-1 md:mt-1"
+          >HTML</span
+        >
+
+        <span
+        class="inline-block bg-gray-600 text-gray-200 px-3 py-2 rounded-full font-bold shadow-lg hover:shadow-gray-100/10 hover:-translate-y-1 duration-100 mt-3 lg:mt-1 md:mt-1"
+        >Python</span
+        >
+        <span
+          class="inline-block bg-gray-600 text-gray-200 px-3 py-2 rounded-full font-bold shadow-lg hover:shadow-gray-100/10 hover:-translate-y-1 duration-100 mt-3 lg:mt-1 md:mt-1"
+          >Tailwind</span
+        >
+        <span
+          class="inline-block bg-gray-600 text-gray-200 px-3 py-2 rounded-full font-bold shadow-lg hover:shadow-gray-100/10 hover:-translate-y-1 duration-100 mt-3 lg:mt-1 md:mt-1"
+          >Javascript</span
+        >
+      </div>
+      <div class="mt-4 grid grid-cols-2 gap-4 text-center lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 select-none">
+        <span
+        class="inline-block bg-gray-600 text-gray-200 px-3 py-2 rounded-full font-bold shadow-lg hover:shadow-gray-100/10 hover:-translate-y-1 duration-100 mt-3 lg:mt-1 md:mt-1"
+        >Photoshop</span
+        >
+
+        <span
+        class="inline-block bg-gray-600 text-gray-200 px-3 py-2 rounded-full font-bold shadow-lg hover:shadow-gray-100/10 hover:-translate-y-1 duration-100 mt-3 lg:mt-1 md:mt-1"
+        >Illustrator</span
+        >
+        <span
+        class="inline-block bg-gray-600 text-gray-200 px-3 py-2 rounded-full font-bold shadow-lg hover:shadow-gray-100/10 hover:-translate-y-1 duration-100 mt-3 lg:mt-1 md:mt-1"
+        >Video Editing</span
+        >
+        <span
+          class="inline-block bg-gray-600 text-gray-200 px-3 py-2 rounded-full font-bold shadow-lg hover:shadow-gray-100/10 hover:-translate-y-1 duration-100 mt-3 lg:mt-1 md:mt-1"
+          >Blender 3D</span
+        >
+      </div>
+      
+<button class="mt-6 px-4 py-3 rounded-xl flex items-center gap-2 text-white font-bold select-none bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-[length:200%_100%] bg-left hover:bg-right transition-all duration-500 ease-in-out hover:shadow-lg active:scale-95 overflow-hidden">
+  <img src="assets/downloadbutton.png" class="w-6 h-6">
+  <h1 class="text-gray-200 font-bold">Download Portfolio</h1>
+</button>
+      
+    </section>
+
+
+    <section class="p-8 bg-gray-800 rounded-xl mt-5">
+      <h2
+        class="text-3xl font-bold p-4 text-gray-200 sm:text-left text-center select-none "
+      >
+        Projects
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols2 md:grid-cols-3 lg:grid-cols-3">
+        
+        <div
+          class="bg-gray-700 shadow-lg rounded-lg p-4 m-2 max-w-auto h-auto flex flex-col justify-between border-2 border-gray-700 hover:bg-gray-600 duration-200 hover:border-gray-300 overflow-hidden hover:-translate-y-1"
+        >
+          <div>
+            <h3 class="text-xl font-semibold text-gray-300">
+              Minecraft Bot
+            </h3>
+            <p class="text-white mt-4 lg:text-justify md:text-justify">A Minecraft bot using mineflayer which can be used to automate actions. It can join your server to keep it online!</p>
+          </div>
+
+          
+        
+      <div class="bg-gray-700 shadow-lg mr-8 rounded-lg p-4 my-2 w-full h-auto flex flex-col justify-between border-2 border-gray-700  duration-200  overflow-hidden ">
+        <img src="assets/imageplaceholder.png" class="h-auto w-64 mx-auto">
+      </div>
+
+      <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-400 mt-5">Javascript</span>
+            <a href="https://github.com/TiElixir/MineAFKjs">
+            <button
+              class="mt-6 px-2 py-1 rounded-xl flex items-center gap-1 text-white font-bold select-none bg-blue-500 text-white rounded px-4 py-2 hover:shadow-lg hover:shadow-blue-400/70 duration-300 hover:bg-blue-400 select-none hover:scale-105"
+              
+            >
+              <img src="assets/github.png" class="w-4 h-4"><h1>View</h1>
+            </button></a>
+          </div>
+      
+      </div>
+      
+        <div
+          class="bg-gray-700 shadow-lg rounded-lg max-w-auto p-4 m-2 h-auto flex flex-col justify-between border-2 border-gray-700 hover:bg-gray-600 duration-200 hover:border-gray-300 overflow-hidden hover:-translate-y-1"
+        >
+          <div>
+            <h3 class="text-xl font-semibold text-gray-300 truncate">
+              Chrome Extension
+            </h3>
+            <p class="text-white mt-4 overflow-hidden lg:text-justify md:text-justify">
+              I have created a chrome extension which automatically clicks on
+              "CONFIRM" button to start your aternos server.
+            </p>
+          </div>
+
+          
+          <div class="bg-gray-700 shadow-lg mr-8 rounded-lg p-4 my-2 w-full h-auto flex flex-col justify-between border-2 border-gray-700 duration-200 overflow-hidden ">
+        <img src="assets/imageplaceholder.png" class="h-auto w-64 mx-auto">
+      </div>
+      <div class="mt-4 flex justify-between items-center">
+            <span class="mt-5 text-sm text-gray-400">Javascript</span>
+            <a href="https://github.com/TiElixir/aternos-confirm-chrome-extention">
+            <button
+              class="mt-6 px-2 py-1 rounded-xl flex items-center gap-1 text-white font-bold select-none bg-blue-500 text-white rounded px-4 py-2 hover:shadow-lg hover:shadow-blue-400/70 duration-300 hover:bg-blue-400 select-none hover:scale-105"
+            >
+              <img src="assets/github.png" class="w-4 h-4"><h1>View</h1>
+            </button></a>
+          
+          </div>
+        </div>
+        
+        <div
+          class="bg-gray-700 shadow-lg rounded-lg p-4 max-w-auto m-2 h-auto flex flex-col justify-between border-2 border-gray-700 hover:bg-gray-600 duration-200 hover:border-gray-300 overflow-hidden hover:-translate-y-1"
+        >
+          <div>
+            <h3 class="text-xl font-semibold text-gray-300">
+              Excel Data
+            </h3>
+            <p class="text-white mt-4 lg:text-justify md:text-justify">
+              I have created a python program which utilizes datasets and normal distribution to generate distributed data in Excel.
+            </p>
+          </div>
+
+          
+        
+        <div class="bg-gray-700 shadow-lg mr-8 rounded-lg p-4 my-2 w-full h-auto flex flex-col justify-between border-2 border-gray-700 duration-200 overflow-hidden ">
+        <img src="assets/imageplaceholder.png" class="h-auto w-64 mx-auto">
+
+      </div>
+      <div class="mt-4 flex justify-between items-center">
+            <span class="mt-5 text-sm text-gray-400">Python</span>
+            <button
+              class="mt-6 px-2 py-1 rounded-xl flex items-center gap-1 text-white font-bold select-none bg-blue-500 text-white rounded px-4 py-2 hover:shadow-lg hover:shadow-blue-400/70 duration-300 hover:bg-blue-400 select-none hover:scale-105"
+            >
+              <h1>View</h1>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 rounded-lg py-4 px-4">
+      
+        <div class="mx-6 bg-gray-700 p-4 rounded-xl px-6 w-2/3 mx-auto">
+          <h1 class="font-bold text-3xl text-gray-200 ">Contact Form</h1>
+          <form class="flex flex-col text-gray-200">
+            <input placeholder="Name" class="bg-gray-600 rounded-xl px-4 py-3 mt-4 focus:outline-2 focus:outline-offset-2 focus:border-blue-500 focus:bg-gradient-to-b focus:from-[#008CFF]/50 focus:to-[#4A49F1]/50 hover:shadow-lg hover:shadow-blue-500/30 duration-100 active:outline-blue-500 focus:outline-offset-2 focus:outline-4">
+            <input placeholder="Email" class="bg-gray-600 rounded-xl px-4 py-3 mt-4 focus:outline-2 focus:outline-offset-2 focus:border-blue-500 focus:bg-gradient-to-b focus:from-[#4A49F1]/50 focus:via-[#8910E6]/50 focus:to-[#BE34E4]/50  hover:shadow-lg hover:shadow-purple-500/30 duration-100 active:outline-purple-500 focus:outline-offset-2 focus:outline-4">
+            <input placeholder="Message" class="bg-gray-600 rounded-xl px-4 py-3 mt-4 focus:outline-2 focus:outline-offset-2 focus:border-blue-500 focus:bg-gradient-to-b focus:from-[#AF2AE5]/50 focus:to-[#ED53E3]/50 hover:shadow-lg  hover:shadow-lg hover:shadow-pink-500/30 duration-100 active:outline-pink-500 focus:outline-offset-2 focus:outline-4">
+            
+          </form>
+          <div class="flex flex-col items-center">
+            <button class="mt-6 px-4 py-3 rounded-xl flex items-center gap-2 text-white font-bold select-none bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-[length:200%_100%] bg-left hover:bg-right transition-all duration-500 ease-in-out hover:shadow-lg active:scale-95 overflow-hidden">
+  Submit
+</button>
+
+
+
+          </div>
+          
+      </div>
+    </section>
+
+    
+
+
+
+    
+
+    <footer class="bg-black text-gray-200 px-auto pt-4 rounded-t-lg mt-64">
+      <h1 class="text-4xl text-center font-bold">Contact Me</h1>
+      <h3 class="text-center mb-5">+91 1800-069-069</h3>
+
+      <div class="flex justify-between">
+        <div class="p-4">
+          <h2 class="font-bold">Site Links</h3>
+          <ul>
+            <li class="hover:underline"><a href="index.html">Home</a></li>
+            <li class="hover:underline"><a href="about.html">About</a></li>
+            <li class="hover:underline"><a href="">Help</a></li>
+            
+          </ul>
+        </div>
+        <div class="p-4">
+          <h2 class="font-bold text-left">Project Links</h2>
+          <ul>
+            <li class="hover:underline"><a href="https://github.com/TiElixir/MineAFKjs">Minecraft Bot</a></li>
+            <li class="hover:underline"><a href="https://github.com/TiElixir/aternos-confirm-chrome-extention">Chrome Extension</a></li>
+            <li class="hover:underline"><a href="">Python Excel Data Gen</a></li>
+
+          </ul>
+        </div>
+        <div class="p-4">
+          <h2 class="font-bold text-left">My Socials</h2>
+          <ul>
+            <li class="hover:underline"><a href="">Instagram</a></li>
+            <li class="hover:underline"><a href="">LinkedIn</a></li>
+            <li class="hover:underline"><a href="">Github</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <h2 class="text-xs font-thin text-gray-400 text-center">© 2025 TiElixir. All rights reserved</h2>
+    </footer>
+  </body>
+</html>
